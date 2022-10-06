@@ -18,7 +18,7 @@ if __name__ == '__main__':
     except:
         print("Computer needs some training...\n")
         t1 = datetime.datetime.now()
-        for i in range(10):
+        for i in range(50):
             st.train(500)
             print(p1.exp_rate)
             if len(p2.q_value) + len(p1.q_value) == 764:
